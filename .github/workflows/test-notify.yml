@@ -1,6 +1,9 @@
 name: Test Mobile Notification
 on: workflow_dispatch
 
+permissions:
+  issues: write
+
 jobs:
   ping:
     runs-on: ubuntu-latest
